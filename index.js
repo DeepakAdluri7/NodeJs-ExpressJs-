@@ -8,7 +8,7 @@ const jwtPassword = "123456";
 app.use(express.json())
 
 const schema = zod.array(zod.number())
-mongoose.connect('mongodb+srv://deepak_adluri:DeepakAdluri%40123@cluster0.8ytltct.mongodb.net/sample_db');
+mongoose.connect('*******');
 const User = mongoose.model('Users', { name: String, email: String, password: String })
 
 
